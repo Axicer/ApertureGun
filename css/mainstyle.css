@@ -35,18 +35,32 @@ aside{
 	width: 25%;
 }
 
-.pres{
+.mainPresentation{
 	display: flex;
 	flex: 0 0;
 }
 
 .carGun{
 	display:flex;
-	flex: 0 0;
+	flex: 1.5 0 0;
+}
+
+.carGun .GunName{
+	flex: 3 0 0;
+}
+
+.carGun .car{
+	text-align: left;
+	flex: 1 0 0;
+	border: 2px solid black;
+}
+
+.commandGun{
+	flex: 1 0 0;
 }
 
 .carGun img{
-	width:10%
+	width:20%
 }
 
 footer{
