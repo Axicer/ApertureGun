@@ -27,18 +27,21 @@ article{
 	background-image: url("../img/background-1.png");
     background-repeat: no-repeat;
 	background-size: 100%;
+	background-repeat: repeat-y;
 }
 
 aside{
-	background-color: #b11111;
+	background-color: #00FF00;
 }
 
 .pres{
 	display: flex;
+	flex: 0 0;
 }
 
 .carGun{
 	display:flex;
+	flex: 0 0;
 }
 
 .carGun img{
