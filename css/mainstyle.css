@@ -4,7 +4,8 @@ body{
     background-position: left top;
     background-attachment: fixed;
     background-size: 100%;
-    text-align:center;
+	margin : auto;
+	width:90%;
 }
 
 header{
@@ -67,3 +68,14 @@ footer{
 	background-color: #7F7F7F;
 	width:100%;
 }
+
+
+/*----------------Page d'acceuil----------------*/
+	
+.acceuil_acceuil_appertlogo {
+	width:1000px;
+	
+	margin:auto;
+}
+article .home {
+	border:1px solid black;
