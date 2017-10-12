@@ -1,4 +1,37 @@
+/*--------------FONTS---------------------------*/
+@font-face {
+    font-family: din;
+    src: url(../font/din.ttf);
+}
+@font-face {
+    font-family: din_black;
+    src: url(../font/din_black.ttf);
+}
+@font-face {
+    font-family: din_bold;
+    src: url(../font/din_bold.ttf);
+}
+@font-face {
+    font-family: din_medium;
+    src: url(../font/din_medium.ttf);
+}
+
+#din{
+	font-family: din;
+}
+#din_bold{
+	font-family: din_bold;
+}
+#din_black{
+	font-family: din_black;
+}
+#din_medium{
+	font-family: din_medium;
+}
+
+/*---------------Style en commun----------------*/
 body{
+	font-family: din;
 	background-image: url("../img/logoAperture1920x1080.jpg");
     background-repeat: no-repeat;
     background-position: left top;
