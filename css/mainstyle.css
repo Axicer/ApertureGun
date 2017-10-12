@@ -59,19 +59,19 @@ article .home {
 
 /*-------------Page qui sommes-nous-------------*/
 
-.who{
+.who_who{
 display:flex;
 flex-direction:column;
 justify-content:flex-start;
 margin-left:3%;
 }
 
-.who>div{
+.who_who>div{
 display:flex;
 flex-direction:row;
 }
 
-article{
+.who_who>div article{
 display:block;
 width:45%;
 padding:10px;
