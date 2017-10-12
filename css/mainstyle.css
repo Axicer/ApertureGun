@@ -55,3 +55,25 @@ main{
 }
 article .home {
 	border:1px solid black;
+}
+
+/*-------------Page qui sommes-nous-------------*/
+
+.who{
+display:flex;
+flex-direction:column;
+justify-content:flex-start;
+margin-left:3%;
+}
+
+.who>div{
+display:flex;
+flex-direction:row;
+}
+
+article{
+display:block;
+width:45%;
+padding:10px;
+
+}
