@@ -110,3 +110,7 @@ padding:10px;
 .FAQ_summary > li > a{
 	font-family: din_black;
 }
+
+.FAQ_answers{
+	background-color: rgba(216,216,216,0.7);
+}
