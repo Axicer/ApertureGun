@@ -136,6 +136,20 @@ padding:10px;
 	font-family: din_black;
 }
 
-.FAQ_answers{
+.FAQ_answers > div{
 	background-color: rgba(216,216,216,0.7);
+}
+.FAQ_answers > div h2{ /*//TODO*/
+	text-align:enter;
+}
+
+.FAQ_answers > div > div p{
+	background-color: rgba(150,150,150,0.7);
+	width: 90%;
+	margin:auto;
+}
+
+.FAQ_answers > div > div h3{
+	margin: auto;
+	width: 90%;
 }
