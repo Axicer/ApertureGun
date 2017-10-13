@@ -47,15 +47,40 @@ main{
 	width: 100%;
 }
 
+
 /*----------------Page d'acceuil----------------*/
 	
 .acceuil_acceuil_appertlogo {
 	width:1000px;
 	margin:auto;
 }
-article .home {
-	border:1px solid black;
+
+
+article div {
+width:70%;
+margin:auto;
+
 }
+
+
+article .accueil_pres {
+	margin:auto;
+	width:90%;
+}
+
+
+main {
+	display:flex;
+	flex-direction:column;
+}
+
+.icon_Aper {
+	width:500px;
+	height:500px;
+
+
+}
+
 
 /*-------------Page qui sommes-nous-------------*/
 
