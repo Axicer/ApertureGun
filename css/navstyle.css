@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "din_medium";
+    src: url('../font/din_medium.ttf');
+}
+
 nav {
 	padding: 0;
 	margin: 0;
@@ -27,6 +32,7 @@ nav > ul > li{
 nav > ul > li > a{
 	line-height: 50px;
 	color: white;
+	font-family: din_medium;
 }	
 
 nav > ul > li > ul{
@@ -50,4 +56,5 @@ nav > ul > li:hover > ul li{
 nav > ul > li:hover > ul li a{
 	line-height: 50px;
 	color: white;
+	font-family: din_medium;
 }

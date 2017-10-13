@@ -1,19 +1,19 @@
 /*--------------FONTS---------------------------*/
 @font-face {
-    font-family: din;
-    src: url(../font/din.ttf);
+    font-family: "din";
+    src: url('../font/din.tff');
 }
 @font-face {
-    font-family: din_black;
-    src: url(../font/din_black.ttf);
+    font-family: "din_black";
+    src: url('../font/din_black.ttf');
 }
 @font-face {
-    font-family: din_bold;
-    src: url(../font/din_bold.ttf);
+    font-family: "din_bold";
+    src: url('../font/din_bold.ttf');
 }
 @font-face {
-    font-family: din_medium;
-    src: url(../font/din_medium.ttf);
+    font-family: "din_medium";
+    src: url('../font/din_medium.ttf');
 }
 
 #din{
@@ -38,7 +38,7 @@ body{
     background-attachment: fixed;
     background-size: 100%;
 	margin : auto;
-	width:90%;
+	width:100%;
 }
 
 main{
@@ -76,4 +76,37 @@ display:block;
 width:45%;
 padding:10px;
 
+}
+
+/*-----------------FAQ---------------------------*/
+
+.FAQ_summary{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: stretch;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	list-style-type: none;
+	background-color: rgba(216,216,216,0.7);
+}
+
+.FAQ_summary > li{
+	padding: 0;
+	margin: 0;
+}
+
+.FAQ_summary > li a{
+	font-family: din_bold;
+	color: grey;
+}
+.FAQ_summary > li a:hover{
+	font-family: din_bold;
+	color: white;
+}
+
+.FAQ_summary > li > a{
+	font-family: din_black;
 }
