@@ -1,7 +1,7 @@
 /*--------------FONTS---------------------------*/
 @font-face {
     font-family: "din";
-    src: url('../font/din.tff');
+    src: url('../font/din.ttf');
 }
 @font-face {
     font-family: "din_black";
@@ -45,6 +45,25 @@ main{
 	position: relative;
 	top: 50px;
 	width: 100%;
+}
+
+footer{
+	position:fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: grey;
+}
+
+footer p{
+	text-align:center;
+	font-family:din_medium;
+}
+
+.general_false_footer{
+	position: relative;
+	top: 50px;
+	height:50px;
 }
 
 
@@ -138,18 +157,18 @@ padding:10px;
 
 .FAQ_answers > div{
 	background-color: rgba(216,216,216,0.7);
-}
-.FAQ_answers > div h2{ /*//TODO*/
-	text-align:enter;
+	text-align:center;
 }
 
 .FAQ_answers > div > div p{
 	background-color: rgba(150,150,150,0.7);
 	width: 90%;
 	margin:auto;
+	text-align:left;
 }
 
 .FAQ_answers > div > div h3{
 	margin: auto;
 	width: 90%;
+	text-align:left;
 }
