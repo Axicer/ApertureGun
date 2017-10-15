@@ -88,7 +88,7 @@ article .accueil_pres {
 }
 
 
-main {
+main .accueil_main {
 	display:flex;
 	flex-direction:column;
 }
