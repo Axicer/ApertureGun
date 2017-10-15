@@ -103,23 +103,45 @@ main {
 
 /*-------------Page qui sommes-nous-------------*/
 
-.who_who{
-display:flex;
-flex-direction:column;
-justify-content:flex-start;
-margin-left:3%;
+.who_header{
+	display:block;
+	position:relative;
+	top:50px;
 }
+.who_who img{
+	max-height:200px;
+	float:left;
+	}
+@media(min-width:720px){
+	.who_who>div{width:45%}
+	.who_who>aside{width:45%}
 
-.who_who>div{
-display:flex;
-flex-direction:row;
+	.who_who{
+		display:flex;
+	}	
+
+	.who_who>div>article{
+		display:block;
+		height:35%;
+		padding:5%;
+		clear:left;
+	}
+
+	.who_who>aside>div{
+		display:block;
+		height:35%;
+		padding:5%;
+		clear:left;
+	}
+
 }
-
-.who_who>div article{
-display:block;
-width:45%;
-padding:10px;
-
+@media(max-width:719px){
+	.who_who{
+		display:block;
+	}
+	.who_who img{
+	max-height:100px;
+	}
 }
 
 /*-----------------FAQ---------------------------*/
