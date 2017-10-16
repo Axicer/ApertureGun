@@ -35,7 +35,7 @@
 /*----------------Page d'acceuil----------------*/
 	
 
-article div  {
+.accueil_pres > div  {
 width:70%;
 margin:auto;
 }
