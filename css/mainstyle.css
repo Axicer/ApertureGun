@@ -107,10 +107,12 @@ main .accueil_main {
 	display:block;
 	position:relative;
 	top:50px;
+	padding:5px 15px;
 }
 .who_who img{
 	max-height:200px;
 	float:left;
+	padding:5px;
 	}
 @media(min-width:720px){
 	.who_who>div{width:45%}
@@ -122,18 +124,18 @@ main .accueil_main {
 
 	.who_who>div>article{
 		display:block;
-		height:35%;
+		height:42%;
 		padding:5%;
 		clear:left;
 	}
 
 	.who_who>aside>div{
 		display:block;
-		height:35%;
-		padding:5%;
+		height:42%;
+		padding:5% 0%;
 		clear:left;
+		margin-left:5%;
 	}
-
 }
 @media(max-width:719px){
 	.who_who{
