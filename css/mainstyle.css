@@ -29,77 +29,34 @@
 	font-family: din_medium;
 }
 
-/*---------------Style en commun----------------*/
-body{
-	font-family: din;
-	background-image: url("../img/logoAperture1920x1080.jpg");
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-attachment: fixed;
-    background-size: 100%;
-	margin : auto;
-	width:100%;
-}
 
-main{
-	position: relative;
-	top: 50px;
-	width: 100%;
-}
-
-footer{
-	position:fixed;
-	bottom: 0px;
-	width: 100%;
-	height: 50px;
-	background-color: grey;
-}
-
-footer p{
-	text-align:center;
-	font-family:din_medium;
-}
-
-.general_false_footer{
-	position: relative;
-	top: 50px;
-	height:50px;
-}
 
 
 /*----------------Page d'acceuil----------------*/
 	
-.acceuil_acceuil_appertlogo {
-	width:1000px;
-	margin:auto;
-}
 
-
-article div {
+article div  {
 width:70%;
 margin:auto;
-
 }
 
 
-article .accueil_pres {
+.accueil_test {
 	margin:auto;
 	width:90%;
 }
 
 
-main .accueil_main {
-	display:flex;
-	flex-direction:column;
-}
 
 .icon_Aper {
 	width:500px;
 	height:500px;
-
-
 }
 
+div .image_accueil{
+	text-align:center;
+
+}
 
 /*-------------Page qui sommes-nous-------------*/
 
@@ -197,6 +154,43 @@ main .accueil_main {
 	text-align:left;
 }
 
+<<<<<<< HEAD
+/*---------------Style en commun----------------*/
+body{
+	font-family: din;
+	background-image: url("../img/logoAperture1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: 100%;
+	margin : auto;
+	width:100%;
+}
+
+main{
+	position: relative;
+	top: 50px;
+	/*width: 100%;*/
+}
+
+footer{
+	position:fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: grey;
+}
+
+footer p{
+	text-align:center;
+	font-family:din_medium;
+}
+
+.general_false_footer{
+	position: relative;
+	top: 50px;
+	height:50px;
+=======
 /* Page Futur Projets */
 
 .Produit_Futur-Projet {
@@ -221,4 +215,5 @@ main .accueil_main {
 	display:flex;
 	flex-direction:row-reverse;
 	align-items:flex-start;
+>>>>>>> 3e31f928c159ac646c51fe15225b408628c9c583
 }
