@@ -154,7 +154,6 @@ div .image_accueil{
 	text-align:left;
 }
 
-<<<<<<< HEAD
 /*---------------Style en commun----------------*/
 body{
 	font-family: din;
@@ -190,7 +189,7 @@ footer p{
 	position: relative;
 	top: 50px;
 	height:50px;
-=======
+}
 /* Page Futur Projets */
 
 .Produit_Futur-Projet {
@@ -215,5 +214,4 @@ footer p{
 	display:flex;
 	flex-direction:row-reverse;
 	align-items:flex-start;
->>>>>>> 3e31f928c159ac646c51fe15225b408628c9c583
 }
