@@ -193,11 +193,16 @@ footer p{
 /* Page Futur Projets */
 
 .Produit_Futur-Projet {
+	align-items:stretch;
 	display:flex;
 	flex-direction:column;
-	align-items:flex-start;
 	margin:auto;
-	width:100%;
+	text-align:center;
+	width:900px;
+}
+
+.Produit_Futur-Projet>article {
+	border:2px solid black;
 }
 
 .Produit_Futur-Projet img {
@@ -205,13 +210,15 @@ footer p{
 }
 
 .P_f-P_impair {
+	align-items:center;
+	background-color: lavender;
 	display:flex;
 	flex-direction:row;
-	align-items:flex-start;
 }
 
 .P_f-P_pair {
+	align-items:center;
+	background-color: aliceblue;
 	display:flex;
 	flex-direction:row-reverse;
-	align-items:flex-start;
 }
