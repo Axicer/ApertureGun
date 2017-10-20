@@ -35,7 +35,7 @@
 /*----------------Page d'acceuil----------------*/
 	
 
-.accueil_pres > div  {
+.accueil_pres div  {
 width:70%;
 margin:auto;
 }
@@ -55,6 +55,15 @@ margin:auto;
 
 div .image_accueil{
 	text-align:center;
+
+}
+
+.blanc {
+	height: 150px;
+}
+
+.bloc {
+	background-color: #cccccc;
 
 }
 
@@ -157,7 +166,7 @@ div .image_accueil{
 /*---------------Style en commun----------------*/
 body{
 	font-family: din;
-	background-image: url("../img/logoAperture1920x1080.jpg");
+	background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-position: left top;
     background-attachment: fixed;
