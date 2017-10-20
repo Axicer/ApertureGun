@@ -11,7 +11,7 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="/aperturegun/">Accueuil</a>
+					<a href="/aperturegun/">Accueil</a>
 					<ul>
 						<li><a href="/aperturegun/qui-sommes-nous/">Qui sommes nous ?</a></li>
 						<li><a href="/aperturegun/presse/">Presse</a></li>
@@ -37,5 +37,39 @@
 			</ul>
 		</nav>
 	</body>
+	<main class="join-us_main">
+		<form action="../form/index.php" method="post">
+			<fieldset>
+				<legend> Informations Personnelles </legend>
+					<p><label for="surname"> Nom </label>
+						<input id="surname" name="name" type="text" required></p>
+					<p><label for="firstname"> Prénom </label>
+						<input id="firstname" name="fname" type="text" required></p>
+					<p><label for="bday"> Date de naissance </label>
+						<input id="bday" name="bdate" type="date" required></p>
+					<p><label> Sexe </label>
+						<input type="radio" name="gender" value="male"> Mâle 
+						<input type="radio" name="gender" value="female"> Femmelle
+						<input type="radio" name="gender" value="unknown"> Inconnu</p>
+					<p><legend> Adresse </legend>
+						<label for="num"> n° de rue </label>
+							<input id="num" name="numr" type="text" required><br>
+						<label for="road"> Nom de rue </label>
+							<input id="road" name="roadn" type="text" required><br>
+						<label for="bat"> Bâtiment </label>
+							<input id="bat" name="building" type="text"><br>
+						<label for="cp"> Code postal </label>
+							<input id="cp" name="codepost" type="text" required><br>
+						<label for="city"> Ville </label>
+							<input id="city" name="city" type="text" required><br>
+						<label for="state"> Pays </label>
+							<input id="state" name="country" type="text" required><br>
+					<p><label for="mail">Em@il</label>
+						<input id="mail" name="mail" type="email" placeholder="yourmail@domain.com" required></p>
+			</fieldset>
+			<fieldset>
+				
+	
+	</main>
 </html>
 
