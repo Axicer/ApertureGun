@@ -231,3 +231,35 @@ footer p{
 	display:flex;
 	flex-direction:row-reverse;
 }
+
+/* Menu Burger Maxi Best-Of-Ultra-XXL-Heart-Attack */
+
+#burg {
+	height:50px;
+}
+
+.burger {
+	align-items:stretch;
+	background-color:DarkGrey;
+	display:flex;
+	left:0%;
+	position:absolute;
+	top:0%;
+	z-index:666;
+	height:50px;
+}
+
+.burger:hover div {
+	align-items:center;
+	background-color:DarkGrey;
+	display:flex;
+	height:94vh;
+	flex-direction:column;
+	width:80vw;
+	z-index:666;
+}
+ 
+.burger>div {
+	display:none;
+	z-index:666;
+}
